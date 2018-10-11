@@ -48,7 +48,7 @@ int linear_mss(int input[], int arraySize) {
 }
 
 int main() {
-    cout << "Cubic:" << endl;
+    cout << "Cubic: " << endl;
     int arrayA[] = {711, 118, 264, 55, -480, 347, -671, -340, 957, 526, 685, -602, -998, -558, 60, -420, -517, 934, -185, 877, 463, 708, -832, -172, 177, -119, -574, 286, -816, 178, -236, -590, -302, 426, -348, 684, -238, 139, 185, 174, -827, -813, -254, -316, 385, 195, 518, -999, 233, -70, 352, 438, 217, -97, -299, -468, -742, 394, 502, -140, 772, -333, 815, -38, 825, -449, 533, -610, -258, -393, -903, 635, 447, -603, 405, 707, 190, 551, -965, -759, 455, -650, -612, 841, 797, 467, 419, -862, 472, -815, -455, 377, -974, 160, -869, -992, -645, -23, 452, -198};
     int arraySizeA = sizeof(arrayA)/sizeof(arrayA[0]);
     int css1 = cubic_mss(arrayA, arraySizeA);
@@ -69,7 +69,7 @@ int main() {
     int css4 = cubic_mss(arrayD, arraySizeD);
     cout << css4 << endl;
 
-    cout << "Quadratic:" << endl;
+    cout << "Quadratic: " << endl;
     int qss1 = quadratic_mss(arrayA, arraySizeA);
     int qss2 = quadratic_mss(arrayB, arraySizeB);
     int qss3 = quadratic_mss(arrayC, arraySizeC);
@@ -80,7 +80,7 @@ int main() {
     cout << qss4 << endl;
 
 
-    cout << "Linear:" << endl;
+    cout << "Linear: " << endl;
     int lss1 = linear_mss(arrayA, arraySizeA);
     int lss2 = linear_mss(arrayB, arraySizeB);
     int lss3 = linear_mss(arrayC, arraySizeC);
